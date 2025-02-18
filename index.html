@@ -73,6 +73,12 @@
         a {
             color: blue;
         }
+        #partePrincipal {
+            display: flex;
+            justify-content: center;
+            flex-direction: row;
+            align-items: center;
+        }
     </style>
 </head>
 <body>
@@ -87,23 +93,26 @@
         <p>Este projeto tem como objetivo entender o fluxo de trabalho do GitHub, incluindo a criação de branches, commits, Pull Requests e revisões de código.</p>
     </section>
 
-    <section>
-        <h2>Perfis dos Alunos</h2>
+    <br>
+    <h2>Perfis dos Alunos</h2>
+    <section id="partePrincipal">
         <div class= "perfil-container">
-            <div class="perfil" id="tres">
-                <img class="foto" src="./manuelli.jpeg" alt="Foto do Aluno">
-                <h3>Manuelli Reis Sá Flaviano</h3>
-                <p>Curso: Germinare Tech DS</p>
-                <p><a href="https://github.com/manuellifla" target="_blank">GitHub</a></p>
-              </div>
-        </div>
             <div class="perfil" id="quatro">
                 <img class="foto" src="yasminBarbosa.jpg" alt="Foto do Aluno">
                 <h3>Yasmin Barbosa Rodrigues Pinheiro</h3>
                 <p>Curso: Germinare Tech DS</p>
                 <p><a href="https://github.com/yassbarbosa" target="_blank">GitHub</a></p>
-              </div>
-        </div>
+            </div>
+        </div>
+
+        <div class= "perfil-container">
+            <div class="perfil" id="cinco">
+                <img class="foto" src="caduPerrud.jpg" alt="Foto do Aluno">
+                <h3>Carlos Eduardo Perrud Sousa</h3>
+                <p>Curso: Germinare Tech DS</p>
+                <p><a href="https://github.com/CaduPerrudGerminare" target="_blank">GitHub</a></p>
+            </div>
+        </div>
 
         <div class= "perfil-container">
             <div class="perfil" id="seis">
@@ -113,8 +122,6 @@
                 <p><a href="https://github.com/MarceloPaschoareli" target="_blank">GitHub</a></p>
               </div>
         </div>
-
-        <p>Cada aluno deve copiar e editar um bloco acima com suas informações.</p>
     </section>
 
     <button class="btn">Saiba mais sobre GitHub</button>
